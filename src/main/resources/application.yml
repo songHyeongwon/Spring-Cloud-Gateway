@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: ttt2
+        uri: http://localhost:9080 #이 서버를 호출
+        predicates:
+        - Path=/tttt/** #이 경로로 오면
+        filters:
+          - RewritePath=/tttt, /ttt2 #tttt를 치환합니당
+          - CustomFilter
