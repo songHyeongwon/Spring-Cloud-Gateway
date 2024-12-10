@@ -1,9 +1,10 @@
-
+8
 # Spring Cloud Gateway (SCG) - YML 설정 가능 값
 
 Spring Cloud Gateway(SCG)에서 `application.yml` 파일에 설정할 수 있는 값은 매우 다양합니다. SCG는 Spring Boot 애플리케이션의 일부로 동작하며, Gateway 자체의 설정뿐만 아니라 Spring Boot 및 Spring Cloud와 관련된 다양한 설정을 yml 파일에서 정의할 수 있습니다.
 
-## Spring Cloud Gateway 주요 설정
+## Spring Cloud Gateway 주요 설정 값
+
 다음은 Spring Cloud Gateway의 `application.yml`에서 설정할 수 있는 주요 옵션들입니다.
 
 ### 1. 기본 설정
