@@ -61,7 +61,7 @@ spring:
 - **RemoteAddr**: 클라이언트의 IP 주소를 기준으로 라우팅합니다.
 - **Weight**: 라우팅의 가중치를 설정하여 특정 라우트로 트래픽을 퍼센트 분산시킬 수 있습니다.
 - **CloudFoundryRouteService**: Cloud Foundry에서 제공하는 서비스 경로에 대해 라우팅할 때 사용합니다.
-- **ReadBodyPredicateFactory**: 요청 본문을 읽고 조건을 만족할 때 라우팅합니다.
+- **ReadBodyPredicateFactory**: 요청 본문을 읽고 조건을 만족할 때 라우팅합니다. 조건검색
 
 ### 4. 필터 관련 설정
 
