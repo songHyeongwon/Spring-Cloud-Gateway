@@ -132,4 +132,5 @@ spring:
               - PUT
               - DELETE
               - PATCH
+              - OPTION
 ```
